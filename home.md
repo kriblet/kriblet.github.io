@@ -1,4 +1,14 @@
-<!-- TITLE: Home -->
-<!-- SUBTITLE: A quick summary of Home -->
+<!-- TITLE: SentinelJS -->
+<!-- SUBTITLE: A light realtime NodeJS Framework for everyone. -->
 
-# Header
+# Get started
+todo: get started
+
+# Installation
+todo: installation
+
+# First project
+todo: first project
+
+# Bootstrapper
+todo: bootstrapper
