@@ -1,3 +1,4 @@
+
 <!-- TITLE: SentinelJS -->
 <!-- SUBTITLE: A light realtime NodeJS Framework for everyone. -->
 
@@ -11,7 +12,7 @@ todo: can do
 
 ## Why SentinelJS ?
 todo: why sentineljs
-
+-----
 # Get started
 todo: get started
 ## Configuration
