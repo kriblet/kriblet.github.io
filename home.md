@@ -3,12 +3,14 @@
 
 # Get started
 todo: get started
-
-# Installation
+## Configuration
+todo: configuration
+## Installation
 todo: installation
 
-# First project
+## First project
 todo: first project
 
-# Bootstrapper
+## Bootstrapper
 todo: bootstrapper
+
