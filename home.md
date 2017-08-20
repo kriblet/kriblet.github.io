@@ -1,6 +1,14 @@
 <!-- TITLE: SentinelJS -->
 <!-- SUBTITLE: A light realtime NodeJS Framework for everyone. -->
 
+# Overall
+todo: overall
+
+## What SentinelJS can do?
+todo: can do
+
+## Why SentinelJS ?
+
 # Get started
 todo: get started
 ## Configuration
