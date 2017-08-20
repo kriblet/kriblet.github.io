@@ -12,8 +12,6 @@ todo: can do
 ## Why SentinelJS ?
 todo: why sentineljs
 
-
------
 # Get started
 todo: get started
 ## Configuration
