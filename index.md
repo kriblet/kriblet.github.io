@@ -9,6 +9,6 @@ https://xentinel.io
 ### SentinelJS
 NodeJS light & powerful framework for RestAPI / Web / Realtime apps.
 
-[Documentation](sentineljs/home)
+[Documentation](sentineljs/documentation)
 
 {% include footer.html %}
