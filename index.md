@@ -1,5 +1,13 @@
-<!-- TITLE: Index -->
-<!-- SUBTITLE: A quick summary of Index -->
+<!-- TITLE: Kriblet -->
+<!-- SUBTITLE: Outsourcing and TI startup -->
 
-# Header
+# Kriblet
+
+## Projects
+### Xentinel.io
+https://xentinel.io
+### SentinelJS
+NodeJS light & powerful framework for RestAPI / Web / Realtime apps.
+[Documentation](sentineljs/home)
+
 {% include footer.html %}
