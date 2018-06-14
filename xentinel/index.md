@@ -1,5 +1,6 @@
 <!-- TITLE: Xentinel -->
 <!-- SUBTITLE: Xentinel API Documentation -->
+{% include head.html %}
 
 # Xentinel
 
