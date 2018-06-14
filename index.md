@@ -1,5 +1,6 @@
 <!-- TITLE: Kriblet -->
 <!-- SUBTITLE: Outsourcing and TI startup -->
+{% include head.html %}
 
 # Kriblet
 
