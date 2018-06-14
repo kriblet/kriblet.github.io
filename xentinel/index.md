@@ -2,6 +2,7 @@
 title: Xentinel
 description: Xentinel API Documentation
 layout: default
+logo: /img/xentinel.png
 ---
 
 # Xentinel
