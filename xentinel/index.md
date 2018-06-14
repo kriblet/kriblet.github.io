@@ -1,6 +1,7 @@
 ---
 title: Xentinel
 description: Xentinel API Documentation
+layout: post
 ---
 
 [back](./)
