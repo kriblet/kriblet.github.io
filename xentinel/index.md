@@ -3,9 +3,8 @@ title: Xentinel
 description: Xentinel API Documentation
 layout: default
 ---
-<img src="/img/xentinel2.png" alt="Xentinel.io" width="100px"/>
-
 # Xentinel
+<img src="/img/xentinel2.png" alt="Xentinel.io" width="100px"/>
 
 ## Overall
 This is a GPS Tracking software light and powerful, made to support [xentinel.io](https://xentinel.io) platform
