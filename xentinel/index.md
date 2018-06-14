@@ -4,6 +4,7 @@ description: Xentinel API Documentation
 layout: default
 logo: /img/xentinel.png
 ---
+![Xentinel][/img/xentinel.png]
 
 # Xentinel
 
@@ -19,3 +20,5 @@ This is a GPS Tracking software light and powerful, made to support [xentinel.io
 ## Public Models Available
 
 ## Special Endpoints
+
+## Embedded Xentinel Map
