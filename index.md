@@ -2,10 +2,7 @@
 logo: /img/favicon.png
 ---
 
-# Kriblet
-
-## Projects
-### Xentinel.io
+# Xentinel.io
 <a href="/xentinel"><img src="/img/xentinel2.png" alt="Xentinel.io" width="100px"/></a>
 
 Api documentation
@@ -16,7 +13,7 @@ Platform
 
 https://xentinel.io
 
-### SentinelJS
+# SentinelJS
 NodeJS light & powerful framework for RestAPI / Web / Realtime apps.
 
 [Documentation](sentineljs/documentation.md)
