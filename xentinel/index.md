@@ -9,12 +9,12 @@ layout: default
 ## Overall
 This is a GPS Tracking software light and powerful, made to support [xentinel.io](https://xentinel.io) platform
 
-## Standard communication convention
+## Standard Communication Convention
 
 ## Login
 
 ## Generic CRUD
 
-## Generic Models Available
+## Public Models Available
 
 ## Special Endpoints
