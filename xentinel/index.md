@@ -1,3 +1,6 @@
+<!-- TITLE: Xentinel -->
+<!-- SUBTITLE: Xentinel API Documentation -->
+
 # Xentinel
 
 ## Overall
