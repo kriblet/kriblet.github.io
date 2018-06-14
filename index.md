@@ -1,7 +1,6 @@
 ---
 logo: /img/favicon.png
 ---
-{% include head.html %}
 
 # Kriblet
 
