@@ -4,7 +4,7 @@ description: Xentinel API Documentation
 layout: default
 logo: /img/xentinel.png
 ---
-![Logo](/img/xentinel.png =100x)
+<img src="/img/xentinel.png" alt="Xentinel.io" width="100px"/>
 
 # Xentinel
 
