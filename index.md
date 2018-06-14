@@ -1,5 +1,6 @@
-<!-- TITLE: Kriblet -->
-<!-- SUBTITLE: Outsourcing and TI startup -->
+---
+logo: /img/favicon.png
+---
 {% include head.html %}
 
 # Kriblet

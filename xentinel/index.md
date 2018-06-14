@@ -1,7 +1,8 @@
-<!-- TITLE: Xentinel -->
-<!-- SUBTITLE: Xentinel API Documentation -->
-{% include head.html %}
-
+---
+title: Xentinel
+description: Xentinel API Documentation
+logo: /img/favicon.png
+---
 # Xentinel
 
 ## Overall
