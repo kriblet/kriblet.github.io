@@ -6,7 +6,7 @@ logo: /img/favicon.png
 
 ## Projects
 ### Xentinel.io
-<img src="/img/xentinel2.png" alt="Xentinel.io" width="100px"/>
+<a href="/xentinel"><img src="/img/xentinel2.png" alt="Xentinel.io" width="100px"/></a>
 
 Api documentation
 
