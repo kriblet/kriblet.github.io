@@ -11,5 +11,5 @@ Api documentation
 
 Platform
 
-https://xentinel.io
+[Xentinel.io](https://xentinel.io)
 
