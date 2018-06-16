@@ -2,12 +2,13 @@
 title: Xentinel
 description: Xentinel API Documentation
 layout: post
-test: Value
+info:
+    title: Xentinel
+    description: Xentinel API Documentation
+    logo: /img/xentinel2.png
 ---
-# Xentinel
-<img src="/img/xentinel2.png" alt="Xentinel.io" width="100px"/>
 
-## Overall
+# Overall
 This is a GPS Tracking software light and powerful, made to support [xentinel.io](https://xentinel.io) platform
 
 ### Content

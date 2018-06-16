@@ -13,18 +13,17 @@
 </head>
   <body>
       
-
-    {% for slide in site.data.slides %}
-      <section class="slide">
-        <h2>{{ slide.title }}</h2>
-        {{ slide.desc | markdownify }}
-      </section>
-    {% endfor %}
-
     <section class="page-header">
+
+      {% if page.info %}
+        <img src="{{site.info.logo | relative_url}}" alt="Logo" style="width:150px;"/>
+        <h1 class="project-name">{{ page.info.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ page.info.description | default: site.github.project_tagline }}</h2>
+      {% else %}
         <img src="{{site.logo | relative_url}}" alt="Logo" style="width:150px;"/>
         <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
         <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      {% endif %}
 
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
@@ -32,9 +31,6 @@
       {% endif %}
     </section>
 
-    {% if page.test %}
-        <h2>PAGE TEST {{ page.test }}</h2>
-    {% endif %}
     <section class="main-content">
       {{ content }}
 
