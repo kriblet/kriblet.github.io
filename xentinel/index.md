@@ -16,7 +16,7 @@ This is a GPS Tracking software light and powerful, made to support [xentinel.io
 [Standard Communication Convention](#standard-communication-convention)
 [Required Headers](#required-headers)
 [Required Body and Examples](#required-body)
-[Login](#login)
+[Login](login)
 
 ## Standard Communication Convention
 
@@ -161,8 +161,6 @@ dataFactory.doDelete = function (url,data) {
     });
 };
  ```
-
-## Login
 
 ## Generic CRUD
 
