@@ -9,6 +9,12 @@ layout: default
 ## Overall
 This is a GPS Tracking software light and powerful, made to support [xentinel.io](https://xentinel.io) platform
 
+### Content
+[Standard Communication Convention](#standard-communication-convention)
+[Required Headers](#required-headers)
+[Required Body and Examples](#required-body)
+[Login](#login)
+
 ## Standard Communication Convention
 
 ### Required Headers
@@ -20,6 +26,7 @@ var headers = {
     'Content-Type' : 'application/json; charset=UTF-8' // Required
 };
 ``` 
+
 ### Required body
 
 To communicate with our api, some requests must be coded in base64 format, for example:
