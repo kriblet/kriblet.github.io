@@ -11,6 +11,18 @@ info:
 
 #Conventions
 
+## Responses
+All responses structure from our api are the same.
+
+
+| Name | Type | Description | 
+|---|---|---|---|
+| isValid | Boolean | Returns `true` when is a success response |
+| data | Object | Contains the data from the request |
+| hasMessages | Boolean | Returns `true` when response has messages |
+| message | String | Contains the message when `hasMessages` is `true` |
+| error | Object | Contains all error information |
+
 ## Required Headers
 Haders must contain the following information:
 ```javascript
