@@ -14,8 +14,8 @@
   <body>
     <section class="page-header">
         <img src="{{site.logo | relative_url}}" alt="Logo" style="width:150px;"/>
-        <h1 class="project-name">{{ page.title | site.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline">{{ page.description | site.description | default: site.github.project_tagline }}</h2>
+        <h1 class="project-name">{{ page.alternative_site_title | site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ page.alternative_description | site.description | default: site.github.project_tagline }}</h2>
 
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>

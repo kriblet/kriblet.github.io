@@ -3,4 +3,18 @@ github_username:      hexenon
 linkedin_username:    benbenavides
 title: Kriblet
 description: Kriblet projects technical documentation
-logo: /img/favicon.png
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      alternative_site_title: Kriblet
+      alternative_description: Kriblet projects technical documentation
+      logo: /img/favicon.png
+  -
+    scope:
+      path: "Xentinel"
+    values:
+      alternative_site_title: Xentinel
+      alternative_description: Xentinel API Documentation
+      logo: /img/xentinel2.png
