@@ -13,10 +13,14 @@ info:
 This is a GPS Tracking software light and powerful, made to support [xentinel.io](https://xentinel.io) platform
 
 ### Content
-[Standard Communication Convention](#standard-communication-convention)
-[Required Headers](#required-headers)
-[Required Body and Examples](#required-body)
-[Login](login)
+
+
+| Content | Description | 
+|---|---|
+| Conventions | [Standard Communication Convention](#standard-communication-convention) |
+| Headers     | [Required Headers](#required-headers) |
+| Body        | [Required Body and Examples](#required-body) | 
+| Login       | [Login](login) |
 
 ## Standard Communication Convention
 
