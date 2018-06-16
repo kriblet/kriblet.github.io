@@ -1,7 +1,7 @@
 ---
 title: Xentinel
 description: Xentinel API Documentation
-layout: default
+layout: post
 test: Value
 ---
 # Xentinel
