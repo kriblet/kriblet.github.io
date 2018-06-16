@@ -1,7 +1,7 @@
 ---
 title: Xentinel
 description: Xentinel API Documentation
-layout: post
+layout: default
 info:
     title: Xentinel
     description: Xentinel API Documentation
