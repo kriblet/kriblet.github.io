@@ -12,21 +12,24 @@ info:
 # Overall
 This is a GPS Tracking software light and powerful, made to support [xentinel.io](https://xentinel.io) platform
 
-### Content
-
+## Content
 
 | Content | Description | 
 |---|---|
-| Conventions | [Standard Communication Convention](conventions) |
-| Login       | [Login](login) |
+| [General](#general) | General information about Xentinel Api |
+| [Conventions](conventions) | Conventions to consider to properly use Xentinel api |
+| [Login](login) | How to login into Xentinel api?  |
+| [CRUD](crud) | How CRUD operations are made with Xentinel api |
+| [Available Models](models) | Available generic CRUD operations with Models |
+| [Special Endpoints](endpoints) | Available endpoints to manage history, events and more |
+| [Embedded Map](map) | Comming soon |
 
-## Convention
 
+## General
 
-## Generic CRUD
+This api is powered by NodeJs Custom architecture, light and powerful, runs in cluster servers hosted by AWS.
 
-## Public Models Available
+Xentiel api provides 30 minutes sessions, which must refresh before 30 minutes doing any request to our api.
 
-## Special Endpoints
+Sessions are domain restricted and client restricted.
 
-## Embedded Xentinel Map
