@@ -21,7 +21,7 @@ All responses structure from our api are the same.
 | data | Object | Contains the data from the request |
 | hasMessages | Boolean | Returns `true` when response has messages |
 | message | String | Contains the message when `hasMessages` is `true` |
-| error | Object | Contains all error information |
+| error | Object | Contains all error information when `isValid` is `false` |
 
 ## Required Headers
 Haders must contain the following information:
