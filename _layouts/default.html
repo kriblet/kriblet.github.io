@@ -19,7 +19,7 @@
     <section class="page-header">
 
       {% if page.info %}
-        <img src="{{page.info.logo | relative_url}}" alt="Logo" style="width:150px;"/>
+        <a href="/"><img src="{{page.info.logo | relative_url}}" alt="Logo" style="width:150px;"/></a>
         <h1 class="project-name">{{ page.info.title | default: site.github.repository_name }}</h1>
         <h2 class="project-tagline">{{ page.info.description | default: site.github.project_tagline }}</h2>
       {% else %}
@@ -38,6 +38,7 @@
       {{ content }}
 
       <footer class="site-footer">
+        <a href="/" ><img src="/img/favicon.png" style="width:100px;" ></a>
         <span class="site-footer-owner">This project is maintained by <a href="https://github.com/hexenon" target="_blank"><i class="fa fa-github fa-lg"></i> Ben</a></span>
         <span class="site-footer-credits">Hosted with <i class="fa fa-heart" style="color:red;"></i> on GitHub Pages</span>
       </footer>
