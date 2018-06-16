@@ -5,7 +5,8 @@ layout: post
 info:
     title: Xentinel
     description: Xentinel API Documentation
-    logo: /img/xentinel2.png
+    favicon: /img/xentinel.png
+    logo: /img/xentinel.png
 ---
 
 # Overall
