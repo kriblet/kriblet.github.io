@@ -11,6 +11,19 @@ info:
 
 # Conventions
 
+## Index
+
+| Content |
+|---|
+| [Api Response](#responses) |
+| [Required Headers](#required-headers) | 
+| [Get Example](#get) |
+| [Expected Body Parameter](#expected-body-parameter)
+| [Post Example](#post-example) |
+| [Put Example](#put-example) |
+| [Delete Example](#delete-example) |
+
+
 ## Responses
 All responses structure from our api are the same.
 
@@ -42,6 +55,7 @@ var headers = {
 };
 ``` 
 
+## Get
  
 ### Get Example
 
