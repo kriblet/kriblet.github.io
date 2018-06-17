@@ -85,7 +85,7 @@ dataFactory.doGetId = function (url,id) {
 };
 ```
 
-<a href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
+<a style="float:right;right:0;" href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
 
 ## Expected Body Parameter
 
@@ -143,7 +143,7 @@ dataFactory.doCleanPost = function (url,data) {
 };
 ```
 
-<a href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
+<a style="float:right;right:0;" href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
 
 ### Put Example
 
@@ -202,7 +202,7 @@ dataFactory.doCleanPut = function (url,data) {
 };
 
 ```
-<a href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
+<a style="float:right;right:0;" href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
 
 ### Delete Example
 ```js
@@ -231,5 +231,5 @@ dataFactory.doDelete = function (url,data) {
 };
  ```
 
-<a href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
+<a style="float:right;right:0;" href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
 
