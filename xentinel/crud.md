@@ -48,7 +48,7 @@ Get parameters available. (by one or a combination of all)
 |limit|`integer`|Limit the api to return 1~50 items in the list|`https://stage.api.xentinel.io/:model/limit=10`|
 |skip|`integer`|Skips N quantity of records, available for pagination|`https://stage.api.xentinel.io/:model/?skip=10&limit=10`|
 |fields|`string`|Desired Model fields separated by comma|`https://stage.api.xentinel.io/:model/?fields=_id,name,lastName`| 
-|populate|`json`|JSON.parse(populate). Recursive. Please see [Mongoose Populate](http://mongoosejs.com/docs/populate.html)|`https://stage.api.xentinel.io/:model/?populate=[{"path":"field","model":"destinationModel"}]`|
+|populate|`json` or `string`|JSON.parse(populate). Recursive. Please see [Mongoose Populate](http://mongoosejs.com/docs/populate.html)|`https://stage.api.xentinel.io/:model/?populate=[{"path":"field","model":"destinationModel"}]`|
 |sort|`json` or `string`|Sorts the result data into desired fields|`https://stage.api.xentinel.io/:model/?sort="createdAt somethingElse"` or `https://stage.api.xentinel.io/:model/?sort={"createdAt":1,"somethingElse":1}`|
 
 
@@ -63,7 +63,7 @@ Get parameters available. (by one or a combination of all)
 |---|---|---|---|
 |q|`Json`|JSON.parse(q). Query filter in `mongoose` style. See [Mongoose Documentation](http://mongoosejs.com/docs/4.x/docs/queries.html) | `https://stage.api.xentinel.io/:model/:_id?skip=0&limit=1&q={"_id":"exampleMongoID"}` |
 |fields|`string`|Desired Model fields separated by comma|`https://stage.api.xentinel.io/:model/:_id?fields=_id,name,lastName`| 
-|populate|`json`|JSON.parse(populate). Recursive. Please see [Mongoose Populate](http://mongoosejs.com/docs/populate.html)|`https://stage.api.xentinel.io/:model/:_id?populate=[{"path":"field","model":"destinationModel"}]`|
+|populate|`json` or `string` |JSON.parse(populate). Recursive. Please see [Mongoose Populate](http://mongoosejs.com/docs/populate.html)|`https://stage.api.xentinel.io/:model/:_id?populate=[{"path":"field","model":"destinationModel"}]`|
 
 
 ## Post
