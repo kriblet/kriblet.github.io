@@ -27,7 +27,7 @@ All responses structure from our api are the same.
 Haders must contain the following information:
 
 | Header | Type | Description | 
-|---|---|---|
+|:-----------------|---|---|
 | x-application-id | String | Contains your ClientID provided by Xentinel |
 | x-xen-session | String | Contains your session `token` provided by Xentinel API Login endpoint |
 | Content-Type | String | Contains the data type sent `application/json; charset=UTF-8;` |
