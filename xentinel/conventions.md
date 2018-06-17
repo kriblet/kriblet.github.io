@@ -47,6 +47,7 @@ Haders must contain the following information:
 
 
 Example Javascript
+
 ```js
 var headers = {
     "x-application-id": "clientID", //provided by Xentinel
@@ -54,6 +55,7 @@ var headers = {
     'Content-Type' : 'application/json; charset=UTF-8' // Required
 };
 ``` 
+<a href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
 
 ## Get
  
@@ -83,7 +85,7 @@ dataFactory.doGetId = function (url,id) {
 };
 ```
 
-[Go top](#index)
+<a href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
 
 ## Expected Body Parameter
 
@@ -140,7 +142,8 @@ dataFactory.doCleanPost = function (url,data) {
     });
 };
 ```
-[Go top](#index)
+
+<a href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
 
 ### Put Example
 
@@ -199,7 +202,7 @@ dataFactory.doCleanPut = function (url,data) {
 };
 
 ```
-[Go top](#index)
+<a href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
 
 ### Delete Example
 ```js
@@ -228,4 +231,5 @@ dataFactory.doDelete = function (url,data) {
 };
  ```
 
- [Go top](#index)
+<a href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
+
