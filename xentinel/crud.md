@@ -12,7 +12,7 @@ info:
 
 # CRUD
 
-Please see [Available Models](../models) that can be accessed thru Generic CRUD
+Please see [Available Models](/xentinel/models) that can be accessed thru Generic CRUD
 
 All responsability is charged in the programmer. Each model has his own functionality please use it wisely.
 
