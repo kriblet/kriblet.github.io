@@ -26,8 +26,7 @@ All responses structure from our api are the same.
 ## Required Headers
 Haders must contain the following information:
 
-Headers set
-| Name | Type | Description | 
+| Header | Type | Description | 
 |---|---|---|
 | x-application-id | String | Contains your ClientID provided by Xentinel |
 | x-xen-session | String | Contains your session `token` provided by Xentinel API Login endpoint |
