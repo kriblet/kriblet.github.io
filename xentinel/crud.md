@@ -18,6 +18,10 @@ All responsability is charged in the programmer. Each model has his own function
 
 All returned data is user scope.
 
+### URL Convention
+
+All models are available thru URL `https://stage.api.xentinel.io/:MODEL`, replace `:MODEL` for the desired public model. 
+
 ## Get
 
 Generic way to obtain data, that data can show within a list or within an object.
@@ -30,9 +34,11 @@ Get parameters available.
 
 | Parameter | Type | Description | Example |
 |---|---|---|---|
-|q|`Json`|Query filter in `mongoose` style. See [Mongoose Documentation](http://mongoosejs.com/docs/4.x/docs/queries.html) | `https://stage.api.xentinel.io/users/?skip=0&limit=1&q={"_id":"exampleMongoID"}`
+|q|`Json`|Query filter in `mongoose` style. See [Mongoose Documentation](http://mongoosejs.com/docs/4.x/docs/queries.html) | `https://stage.api.xentinel.io/users/?skip=0&limit=1&q={"_id":"exampleMongoID"}` |
 
 ### Get By ID
+
+URL Convention `https://stage.api.xentinel.io/:MODEL/:ID`, replace `:MODEL` for the desired model, and replace `:ID` for the specific mongo id.
 
 ## Post
 
