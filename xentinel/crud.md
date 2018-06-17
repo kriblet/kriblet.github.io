@@ -40,7 +40,7 @@ Generic way to obtain data, that data can show within a list or within an object
 All lists data are paginated, please aware that you can not request more than 50 items at once. Api is validated to return `max 50 items`.
 
 
-Get parameters available.
+Get parameters available. (by one or a combination of all)
 
 | Parameter | Type | Description | Example |
 |---|---|---|---|
@@ -57,7 +57,7 @@ Get parameters available.
 
 URL Convention `https://stage.api.xentinel.io/:model/:_id`, replace `:model` for the desired model, and replace `:_id` for the specific mongo _id.
 
-Get parameters available.
+Get parameters available. (by one or a combination of all)
 
 | Parameter | Type | Description | Example |
 |---|---|---|---|
