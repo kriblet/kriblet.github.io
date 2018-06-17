@@ -42,19 +42,10 @@ var headers = {
 };
 ``` 
 
-## Expected Body Parameter
-
-To communicate with our api, some requests must be coded in base64 format, for example:
-
-#### Body Parameter
-
-| Name | Type | Description | 
-|---|---|---|
-| value | String | Contains base64 representation of `contract` type of the endpoint |
-
  
- ### Get Example
- ```js
+### Get Example
+
+```js
 // Get example with AngularJs
 dataFactory.doGet = function (url) {
     headers["x-xen-session"] = user.token;
@@ -77,6 +68,16 @@ dataFactory.doGetId = function (url,id) {
     });
 };
 ```
+
+## Expected Body Parameter
+
+To communicate with our api, some requests must be coded in base64 format, for example:
+
+#### Body Parameter
+
+| Name | Type | Description | 
+|---|---|---|
+| value | String | Contains base64 representation of `contract` type of the endpoint |
 
 ### Post example
 
