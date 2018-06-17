@@ -55,7 +55,7 @@ var headers = {
     'Content-Type' : 'application/json; charset=UTF-8' // Required
 };
 ``` 
-<a href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
+<a style="float:right;right:0;" href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>
 
 ## Get
  
