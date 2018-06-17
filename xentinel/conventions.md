@@ -46,10 +46,10 @@ var headers = {
 
 To communicate with our api, some requests must be coded in base64 format, for example:
 
+#### Body Parameter
 
-Parameters
 | Name | Type | Description | 
-|---|---|---|---|
+|---|---|---|
 | value | String | Contains base64 representation of `contract` type of the endpoint |
 
  
