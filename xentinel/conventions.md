@@ -9,7 +9,7 @@ info:
     logo: /img/xentinel.png
 ---
 
-#Conventions
+# Conventions
 
 ## Responses
 All responses structure from our api are the same.
@@ -25,7 +25,16 @@ All responses structure from our api are the same.
 
 ## Required Headers
 Haders must contain the following information:
-```javascript
+
+Headers set
+| Name | Type | Description | 
+|---|---|---|---|
+| x-application-id | String | Contains your ClientID provided by Xentinel |
+| x-xen-session | String | Contains your session `token` provided by Xentinel API Login endpoint |
+| Content-Type | String | Contains the data type sent `application/json; charset=UTF-8;` |
+
+Example Javascript
+```js
 var headers = {
     "x-application-id": "clientID", //provided by Xentinel
     "x-xen-session": "LoggerUserToken", //provided by Xentinel Auth Service
@@ -33,34 +42,50 @@ var headers = {
 };
 ``` 
 
-## Required body
+## Expected Body Parameter
 
 To communicate with our api, some requests must be coded in base64 format, for example:
- ```javascript
 
+
+Parameters
+| Name | Type | Description | 
+|---|---|---|---|
+| value | String | Contains base64 representation of `contract` type of the endpoint |
+
+ 
+ ### Get Example
+ ```js
 // Get example with AngularJs
 dataFactory.doGet = function (url) {
-    headers["x-xen-session"] = app.user.token;
+    headers["x-xen-session"] = user.token;
     return $http({
         method:'GET',
         url: url,
         headers: headers
     });
 };
-
+```
+### Clean Get Example
+```js
 // Get by id example with AngularJs
 dataFactory.doGetId = function (url,id) {
-    headers["x-xen-session"] = app.user.token;
+    headers["x-xen-session"] = user.token;
     return $http({
         method:'GET',
         url: url + id,
         headers: headers
     });
 };
+```
 
+### Post example
+
+Please verify how the field `userId` is attached to the data object before converting it into base64 and send it to the server.
+
+```js
 // Post example with AngularJs
 dataFactory.doPost = function (url,data) {
-    headers["x-xen-session"] = app.user.token;
+    headers["x-xen-session"] = user.token;
     if (app.user && data)
         data.userId = app.user._id;
 
@@ -79,6 +104,10 @@ dataFactory.doPost = function (url,data) {
     });
 };
 
+```
+
+### Clean Post Example
+```js
 // Clean Post example with AngularJs
 dataFactory.doCleanPost = function (url,data) {
     var headers = {
@@ -93,6 +122,13 @@ dataFactory.doCleanPost = function (url,data) {
         headers: headers
     });
 };
+```
+
+### Put Example
+
+Please verify how the field `updateUserId` is attached to the data object before converting it into base64 and send it to the server.
+
+```js
 
 // Put example with AngularJs
 dataFactory.doPut = function (url,data) {
@@ -121,7 +157,11 @@ dataFactory.doPut = function (url,data) {
         headers: headers
     });
 };
+```
 
+### Clean Put Example
+
+```js
 // Clean Put example with AngularJs
 dataFactory.doCleanPut = function (url,data) {
     headers["x-xen-session"] = app.user.token;
@@ -140,6 +180,10 @@ dataFactory.doCleanPut = function (url,data) {
     });
 };
 
+```
+
+### Delete Example
+```js
 // Delete example with AngularJs
 dataFactory.doDelete = function (url,data) {
     headers["x-xen-session"] = app.user.token;
