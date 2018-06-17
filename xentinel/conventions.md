@@ -16,7 +16,7 @@ All responses structure from our api are the same.
 
 
 | Name | Type | Description | 
-|---|---|---|---|
+|---|---|---|
 | isValid | Boolean | Returns `true` when is a success response |
 | data | Object | Contains the data from the request |
 | hasMessages | Boolean | Returns `true` when response has messages |
@@ -28,10 +28,11 @@ Haders must contain the following information:
 
 Headers set
 | Name | Type | Description | 
-|---|---|---|---|
+|---|---|---|
 | x-application-id | String | Contains your ClientID provided by Xentinel |
 | x-xen-session | String | Contains your session `token` provided by Xentinel API Login endpoint |
 | Content-Type | String | Contains the data type sent `application/json; charset=UTF-8;` |
+
 
 Example Javascript
 ```js
