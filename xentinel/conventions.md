@@ -83,6 +83,8 @@ dataFactory.doGetId = function (url,id) {
 };
 ```
 
+[Go top](#index)
+
 ## Expected Body Parameter
 
 To communicate with our api, some requests must be coded in base64 format, for example:
@@ -138,6 +140,7 @@ dataFactory.doCleanPost = function (url,data) {
     });
 };
 ```
+[Go top](#index)
 
 ### Put Example
 
@@ -196,6 +199,7 @@ dataFactory.doCleanPut = function (url,data) {
 };
 
 ```
+[Go top](#index)
 
 ### Delete Example
 ```js
@@ -223,3 +227,5 @@ dataFactory.doDelete = function (url,data) {
     });
 };
  ```
+
+ [Go top](#index)
