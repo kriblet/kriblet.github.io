@@ -37,11 +37,8 @@ Sessions are domain restricted and client restricted.
 ## Endpoints
 Make sure to use the proper endpoint on your requests.
 
-### Test
+## Test Endpoint
+`https://test.api.wearawhere.com`
 
-`test.api.wearawhere.com`
-
-### Live
-
-`api.xentinel.io`
-
+## Live Endpoint
+`https://api.xentinel.io`

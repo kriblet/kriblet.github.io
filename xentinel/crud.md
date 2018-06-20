@@ -22,12 +22,14 @@ All returned data is user scope.
 
 ### URL Convention
 
-All models are available thru URL `https://stage.api.xentinel.io/:MODEL`, replace `:MODEL` for the desired public model. 
+All models are available thru URL `https://api.server.com/:MODEL`, replace `:MODEL` for the desired public model. 
+
+Please refer to [Available Models](/xentinel/models) to see them.
 
 ## Test Endpoint
-`https://test.api.xentinel.io`
+`https://test.api.wearawhere.com`
 
-## Production Endpoint
+## Live Endpoint
 `https://api.xentinel.io`
 
 
