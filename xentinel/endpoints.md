@@ -18,3 +18,9 @@ A list of special business endpoints.
 This endpoint is made to check a token status.
 
 [Documentation](/xentinel/endpoints/checkStatus)
+
+## Positions History
+
+This service returns positions history from specific `deviceId`
+
+[Documentation](/xentinel/endpoints/historyPositions)
