@@ -35,12 +35,17 @@ Login method to get a valid Token for the next 30 minutes, this token must be re
 User Object and Token
 ```json
 {
-    "token": String,
-    "_id": ObjectID,//user _id
-    "username": String,
-    "picture": String(uri),
-    "userType": Number
-} 
+    "isValid":Boolean,
+    "data":{
+        "token": String,
+        "_id": ObjectID,
+        "username": String,
+        "picture": String(uri),
+        "userType": Number
+    },
+    "hasMessages": Boolean,
+    "message": String
+}
 ```
 
 
