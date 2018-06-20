@@ -9,7 +9,7 @@ info:
     logo: /img/xentinel.png
 ---
 
-#Login
+# Login
 
 Login method to get a valid Token for the next 30 minutes, this token must be refreshed each 30 minutes.
 
