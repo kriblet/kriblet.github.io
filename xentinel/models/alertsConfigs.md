@@ -18,31 +18,31 @@ Follow [this guide](/xentinel/crud) for generic CRUD Operations
 
 |Field|Type|Required|Default|Index|
 |---|---|---|---|---|
-|name|String|`true`||`false`|
-|userId|ObjectID|`true`||`true`|
-|alertsTypes|Array|`false`||`false`|
-|vehicleGroupId|ObjectID|`false`||`true`|
-|vehicleId|ObjectID|`false`||`true`|
-|config|Mixed|`true`||`false`|
-|expireMinutes|Number|`false`|Default 60|`false`|
-|nextTriggerAt|Date|`false`|Default now() |`true`|
-|lastTriggered.alertsTriggeredId|ObjectID|`false`||`true`|
-|lastTriggered.triggeredAt|Date|`false`||`false`|
-|hours|Array|`false`||`false`|
-|days.monday|Boolean|`false`||`false`|
-|days.tuesday|Boolean|`false`||`false`|
-|days.wednesday|Boolean|`false`||`false`|
-|days.thursday|Boolean|`false`||`false`|
-|days.friday|Boolean|`false`||`false`|
-|days.saturday|Boolean|`false`||`false`|
-|days.sunday|Boolean|`false`||`false`|
-|extraContacts.emails|Array|`false`||`false`|
-|extraContacts.phones|Array|`false`||`false`|
-|validAt|Date|`false`||`true`|
-|createdAt|Date|`false`|Default now() |`true`|
-|visibility|Number|`false`|Default 3|`true`|
-|userAccess|Array|`false`||`false`|
-|subscribers|Array|`false`||`false`|
-|activeShutdown|Boolean|`false`||`false`|
-|muted|Boolean|`false`||`false`|
-|_id|ObjectID|`false`||`false`|
+|name|String|`true`|`none`|`false`|
+|userId|ObjectID|`true`|`none`|`true`|
+|alertsTypes|Array|`false`|`none`|`false`|
+|vehicleGroupId|ObjectID|`false`|`none`|`true`|
+|vehicleId|ObjectID|`false`|`none`|`true`|
+|config|Mixed|`true`|`none`|`false`|
+|expireMinutes|Number|`false`|`60`|`false`|
+|nextTriggerAt|Date|`false`|`now() `|`true`|
+|lastTriggered.alertsTriggeredId|ObjectID|`false`|`none`|`true`|
+|lastTriggered.triggeredAt|Date|`false`|`none`|`false`|
+|hours|Array|`false`|`none`|`false`|
+|days.monday|Boolean|`false`|`none`|`false`|
+|days.tuesday|Boolean|`false`|`none`|`false`|
+|days.wednesday|Boolean|`false`|`none`|`false`|
+|days.thursday|Boolean|`false`|`none`|`false`|
+|days.friday|Boolean|`false`|`none`|`false`|
+|days.saturday|Boolean|`false`|`none`|`false`|
+|days.sunday|Boolean|`false`|`none`|`false`|
+|extraContacts.emails|Array|`false`|`none`|`false`|
+|extraContacts.phones|Array|`false`|`none`|`false`|
+|validAt|Date|`false`|`none`|`true`|
+|createdAt|Date|`false`|`now() `|`true`|
+|visibility|Number|`false`|`3`|`true`|
+|userAccess|Array|`false`|`none`|`false`|
+|subscribers|Array|`false`|`none`|`false`|
+|activeShutdown|Boolean|`false`|`none`|`false`|
+|muted|Boolean|`false`|`none`|`false`|
+|_id|ObjectID|`false`|`none`|`false`|

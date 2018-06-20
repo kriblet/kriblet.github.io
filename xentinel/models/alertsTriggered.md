@@ -18,16 +18,16 @@ Follow [this guide](/xentinel/crud) for generic CRUD Operations
 
 |Field|Type|Required|Default|Index|
 |---|---|---|---|---|
-|user|ObjectID|`true`||`true`|
-|alertsConfig|ObjectID|`true`||`true`|
-|vehicle|ObjectID|`true`||`true`|
-|position|ObjectID|`true`||`true`|
-|result|Mixed|`true`||`false`|
-|validAt|Date|`false`|Default now() |`true`|
-|sentAt|Date|`false`|Default Wed Dec 31 1969 17:00:00 GMT-0700 (PST)|`true`|
-|readAt|Date|`false`||`true`|
-|error.errorAt|Date|`false`||`true`|
-|error.message|String|`false`||`true`|
-|createdAt|Date|`false`|Default now() |`true`|
-|visibility|Number|`false`|Default 3|`true`|
-|_id|ObjectID|`false`||`false`|
+|user|ObjectID|`true`|`none`|`true`|
+|alertsConfig|ObjectID|`true`|`none`|`true`|
+|vehicle|ObjectID|`true`|`none`|`true`|
+|position|ObjectID|`true`|`none`|`true`|
+|result|Mixed|`true`|`none`|`false`|
+|validAt|Date|`false`|`now() `|`true`|
+|sentAt|Date|`false`|`Wed Dec 31 1969 17:00:00 GMT-0700 (PST)`|`true`|
+|readAt|Date|`false`|`none`|`true`|
+|error.errorAt|Date|`false`|`none`|`true`|
+|error.message|String|`false`|`none`|`true`|
+|createdAt|Date|`false`|`now() `|`true`|
+|visibility|Number|`false`|`3`|`true`|
+|_id|ObjectID|`false`|`none`|`false`|

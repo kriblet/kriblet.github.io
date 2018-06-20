@@ -18,12 +18,12 @@ Follow [this guide](/xentinel/crud) for generic CRUD Operations
 
 |Field|Type|Required|Default|Index|
 |---|---|---|---|---|
-|userId|ObjectID|`true`||`false`|
-|name|String|`true`||`false`|
-|description|String|`true`||`false`|
-|entities|Array|`false`||`false`|
-|validAt|Date|`false`||`false`|
-|createdAt|Date|`false`|Default now() |`false`|
-|userAccess|Array|`false`||`false`|
-|visibility|Number|`false`|Default 3|`true`|
-|_id|ObjectID|`false`||`false`|
+|userId|ObjectID|`true`|`none`|`false`|
+|name|String|`true`|`none`|`false`|
+|description|String|`true`|`none`|`false`|
+|entities|Array|`false`|`none`|`false`|
+|validAt|Date|`false`|`none`|`false`|
+|createdAt|Date|`false`|`now() `|`false`|
+|userAccess|Array|`false`|`none`|`false`|
+|visibility|Number|`false`|`3`|`true`|
+|_id|ObjectID|`false`|`none`|`false`|

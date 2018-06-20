@@ -18,26 +18,26 @@ Follow [this guide](/xentinel/crud) for generic CRUD Operations
 
 |Field|Type|Required|Default|Index|
 |---|---|---|---|---|
-|name|String|`true`||`unique`|
-|alias|String|`false`||`unique`|
-|licensePlate|String|`true`||`unique`|
-|brand|String|`true`||`true`|
-|model|String|`true`||`true`|
-|year|String|`true`||`true`|
-|vin|String|`true`||`unique`|
-|performance|Number|`false`||`false`|
-|gasTank|Number|`false`||`false`|
-|vehicleType|Number|`true`||`false`|
-|deviceId|ObjectID|`false`||`false`|
-|userId|ObjectID|`false`||`false`|
-|entityTypeId|ObjectID|`false`||`false`|
-|createdAt|Date|`false`|Default now() |`false`|
-|nextPaymentAt|Date|`false`||`false`|
-|active|Boolean|`false`||`false`|
-|color|String|`true`||`false`|
-|userAccess|Array|`false`||`false`|
-|visibility|Number|`false`|Default 3|`true`|
-|engineStatus|Boolean|`false`|Default true|`false`|
-|activeShutdown|Boolean|`false`|Default true|`false`|
-|accConnected|Boolean|`false`|Default true|`false`|
-|_id|ObjectID|`false`||`false`|
+|name|String|`true`|`none`|`unique`|
+|alias|String|`false`|`none`|`unique`|
+|licensePlate|String|`true`|`none`|`unique`|
+|brand|String|`true`|`none`|`true`|
+|model|String|`true`|`none`|`true`|
+|year|String|`true`|`none`|`true`|
+|vin|String|`true`|`none`|`unique`|
+|performance|Number|`false`|`none`|`false`|
+|gasTank|Number|`false`|`none`|`false`|
+|vehicleType|Number|`true`|`none`|`false`|
+|deviceId|ObjectID|`false`|`none`|`false`|
+|userId|ObjectID|`false`|`none`|`false`|
+|entityTypeId|ObjectID|`false`|`none`|`false`|
+|createdAt|Date|`false`|`now() `|`false`|
+|nextPaymentAt|Date|`false`|`none`|`false`|
+|active|Boolean|`false`|`none`|`false`|
+|color|String|`true`|`none`|`false`|
+|userAccess|Array|`false`|`none`|`false`|
+|visibility|Number|`false`|`3`|`true`|
+|engineStatus|Boolean|`false`|`true`|`false`|
+|activeShutdown|Boolean|`false`|`true`|`false`|
+|accConnected|Boolean|`false`|`true`|`false`|
+|_id|ObjectID|`false`|`none`|`false`|

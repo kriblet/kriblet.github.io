@@ -18,9 +18,9 @@ Follow [this guide](/xentinel/crud) for generic CRUD Operations
 
 |Field|Type|Required|Default|Index|
 |---|---|---|---|---|
-|name|String|`false`||`unique`|
-|userId|ObjectID|`true`||`true`|
-|function|ObjectID|`false`||`false`|
-|actions|Array|`false`||`false`|
-|visibility|Number|`false`|Default 4|`true`|
-|_id|ObjectID|`false`||`false`|
+|name|String|`false`|`none`|`unique`|
+|userId|ObjectID|`true`|`none`|`true`|
+|function|ObjectID|`false`|`none`|`false`|
+|actions|Array|`false`|`none`|`false`|
+|visibility|Number|`false`|`4`|`true`|
+|_id|ObjectID|`false`|`none`|`false`|

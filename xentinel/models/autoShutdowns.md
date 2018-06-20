@@ -18,24 +18,24 @@ Follow [this guide](/xentinel/crud) for generic CRUD Operations
 
 |Field|Type|Required|Default|Index|
 |---|---|---|---|---|
-|name|String|`false`||`unique`|
-|vehicleGroup|ObjectID|`false`||`true`|
-|vehicles|Array|`false`||`false`|
-|hours.begin.hour|Number|`false`||`false`|
-|hours.begin.minute|Number|`false`||`false`|
-|hours.final.hour|Number|`false`||`false`|
-|hours.final.minute|Number|`false`||`false`|
-|days.monday|Boolean|`false`||`false`|
-|days.tuesday|Boolean|`false`||`false`|
-|days.wednesday|Boolean|`false`||`false`|
-|days.thursday|Boolean|`false`||`false`|
-|days.friday|Boolean|`false`||`false`|
-|days.saturday|Boolean|`false`||`false`|
-|days.sunday|Boolean|`false`||`false`|
-|visibility|Number|`false`|Default 3|`true`|
-|createdAt|Date|`false`|Default now() |`true`|
-|userId|ObjectID|`true`||`true`|
-|userAccess|Array|`false`||`false`|
-|active|Boolean|`false`|Default true|`false`|
-|timeOffset|Number|`false`||`false`|
-|_id|ObjectID|`false`||`false`|
+|name|String|`false`|`none`|`unique`|
+|vehicleGroup|ObjectID|`false`|`none`|`true`|
+|vehicles|Array|`false`|`none`|`false`|
+|hours.begin.hour|Number|`false`|`none`|`false`|
+|hours.begin.minute|Number|`false`|`none`|`false`|
+|hours.final.hour|Number|`false`|`none`|`false`|
+|hours.final.minute|Number|`false`|`none`|`false`|
+|days.monday|Boolean|`false`|`none`|`false`|
+|days.tuesday|Boolean|`false`|`none`|`false`|
+|days.wednesday|Boolean|`false`|`none`|`false`|
+|days.thursday|Boolean|`false`|`none`|`false`|
+|days.friday|Boolean|`false`|`none`|`false`|
+|days.saturday|Boolean|`false`|`none`|`false`|
+|days.sunday|Boolean|`false`|`none`|`false`|
+|visibility|Number|`false`|`3`|`true`|
+|createdAt|Date|`false`|`now() `|`true`|
+|userId|ObjectID|`true`|`none`|`true`|
+|userAccess|Array|`false`|`none`|`false`|
+|active|Boolean|`false`|`true`|`false`|
+|timeOffset|Number|`false`|`none`|`false`|
+|_id|ObjectID|`false`|`none`|`false`|

@@ -18,15 +18,15 @@ Follow [this guide](/xentinel/crud) for generic CRUD Operations
 
 |Field|Type|Required|Default|Index|
 |---|---|---|---|---|
-|name|String|`false`||`unique`|
-|imei|String|`false`||`unique`|
-|phone|String|`false`||`unique`|
-|userId|ObjectID|`false`||`false`|
-|lastSeen|Date|`false`||`false`|
-|createdAt|Date|`false`|Default now() |`false`|
-|attached|Boolean|`false`||`false`|
-|active|Boolean|`false`||`false`|
-|gmt|Number|`false`||`false`|
-|visibility|Number|`false`|Default 3|`true`|
-|userAccess|Array|`false`||`false`|
-|_id|ObjectID|`false`||`false`|
+|name|String|`false`|`none`|`unique`|
+|imei|String|`false`|`none`|`unique`|
+|phone|String|`false`|`none`|`unique`|
+|userId|ObjectID|`false`|`none`|`false`|
+|lastSeen|Date|`false`|`none`|`false`|
+|createdAt|Date|`false`|`now() `|`false`|
+|attached|Boolean|`false`|`none`|`false`|
+|active|Boolean|`false`|`none`|`false`|
+|gmt|Number|`false`|`none`|`false`|
+|visibility|Number|`false`|`3`|`true`|
+|userAccess|Array|`false`|`none`|`false`|
+|_id|ObjectID|`false`|`none`|`false`|

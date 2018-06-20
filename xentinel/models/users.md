@@ -18,44 +18,44 @@ Follow [this guide](/xentinel/crud) for generic CRUD Operations
 
 |Field|Type|Required|Default|Index|
 |---|---|---|---|---|
-|username|String|`false`||`unique`|
-|userId|ObjectID|`true`||`true`|
-|password|String|`false`||`true`|
-|email|String|`false`||`unique`|
-|active|Boolean|`false`|Default true|`false`|
-|defaultCity|ObjectID|`false`||`false`|
-|information.avatar|String|`true`||`false`|
-|information.name|String|`true`||`true`|
-|information.lastName|String|`true`||`true`|
-|information.male|Boolean|`true`|Default true|`false`|
-|information.phone|String|`true`||`unique`|
-|information.mobilePhone|String|`true`||`unique`|
-|information.country|ObjectID|`true`||`false`|
-|information.state|ObjectID|`true`||`false`|
-|information.city|ObjectID|`true`||`false`|
-|information.street|String|`true`||`true`|
-|information.outsideNumber|String|`true`||`true`|
-|information.insideNumber|String|`false`||`true`|
-|information.neighborhood|String|`true`||`true`|
-|information.zipCode|String|`true`||`true`|
-|information.location.lat|String|`true`||`false`|
-|information.location.lng|String|`true`||`false`|
-|security.expirePassword|Boolean|`false`|Default true|`false`|
-|security.notifyPasswordExpires|Boolean|`false`|Default true|`false`|
-|security.contactByPhone|Boolean|`false`|Default true|`false`|
-|security.contactByEmail|Boolean|`false`|Default true|`false`|
-|security.sendTips|Boolean|`false`|Default true|`false`|
-|roles|Array|`false`||`false`|
-|permissions|Array|`false`||`false`|
-|acceptLocation|Boolean|`false`||`false`|
-|acceptTerms|Boolean|`false`||`false`|
-|subscribeNewsLetter|Boolean|`false`||`false`|
-|accountLevel|Number|`false`||`false`|
-|createdAt|Date|`false`|Default now() |`true`|
-|userType|Number|`false`|Default 2|`false`|
-|visibility|Number|`false`|Default 3|`true`|
-|subUsers|Array|`false`||`false`|
-|subscribers|Array|`false`||`false`|
-|owner|Array|`false`||`false`|
-|locale|String|`false`|Default es|`false`|
-|_id|ObjectID|`false`||`false`|
+|username|String|`false`|`none`|`unique`|
+|userId|ObjectID|`true`|`none`|`true`|
+|password|String|`false`|`none`|`true`|
+|email|String|`false`|`none`|`unique`|
+|active|Boolean|`false`|`true`|`false`|
+|defaultCity|ObjectID|`false`|`none`|`false`|
+|information.avatar|String|`true`|`none`|`false`|
+|information.name|String|`true`|`none`|`true`|
+|information.lastName|String|`true`|`none`|`true`|
+|information.male|Boolean|`true`|`true`|`false`|
+|information.phone|String|`true`|`none`|`unique`|
+|information.mobilePhone|String|`true`|`none`|`unique`|
+|information.country|ObjectID|`true`|`none`|`false`|
+|information.state|ObjectID|`true`|`none`|`false`|
+|information.city|ObjectID|`true`|`none`|`false`|
+|information.street|String|`true`|`none`|`true`|
+|information.outsideNumber|String|`true`|`none`|`true`|
+|information.insideNumber|String|`false`|`none`|`true`|
+|information.neighborhood|String|`true`|`none`|`true`|
+|information.zipCode|String|`true`|`none`|`true`|
+|information.location.lat|String|`true`|`none`|`false`|
+|information.location.lng|String|`true`|`none`|`false`|
+|security.expirePassword|Boolean|`false`|`true`|`false`|
+|security.notifyPasswordExpires|Boolean|`false`|`true`|`false`|
+|security.contactByPhone|Boolean|`false`|`true`|`false`|
+|security.contactByEmail|Boolean|`false`|`true`|`false`|
+|security.sendTips|Boolean|`false`|`true`|`false`|
+|roles|Array|`false`|`none`|`false`|
+|permissions|Array|`false`|`none`|`false`|
+|acceptLocation|Boolean|`false`|`none`|`false`|
+|acceptTerms|Boolean|`false`|`none`|`false`|
+|subscribeNewsLetter|Boolean|`false`|`none`|`false`|
+|accountLevel|Number|`false`|`none`|`false`|
+|createdAt|Date|`false`|`now() `|`true`|
+|userType|Number|`false`|`2`|`false`|
+|visibility|Number|`false`|`3`|`true`|
+|subUsers|Array|`false`|`none`|`false`|
+|subscribers|Array|`false`|`none`|`false`|
+|owner|Array|`false`|`none`|`false`|
+|locale|String|`false`|`es`|`false`|
+|_id|ObjectID|`false`|`none`|`false`|
