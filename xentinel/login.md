@@ -11,19 +11,37 @@ info:
 
 #Login
 
-To login we must send POST with 2 required parameters.
+Login method to get a valid Token for the next 30 minutes, this token must be refreshed each 30 minutes.
 
 [Login Example](#example)
 
-### Parameters
+## Endpoint
+
+`https://api.xentinel.io/endpoint/security/login`
+
+## Method
+
+`POST`
+
+### Post Parameters
 
 | Name | Type | Required | Description | 
 |:--|:-------|:------|:---------------------|
 | u | String | `true` | Contains the username |
 | p | String | `true` | Contains the password |
 
-### Result
+## Result
+
 User Object and Token
+```json
+{
+    "token": String,
+    "_id": ObjectID,//user _id
+    "username": String,
+    "picture": String(uri),
+    "userType": Number
+} 
+```
 
 
 ## Example
