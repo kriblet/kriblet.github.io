@@ -8,8 +8,11 @@ info:
     favicon: /img/xentinel.png
     logo: /img/xentinel.png
 ---
+# Endpoints
 
-#Near vehicles
+Special Endpoints
+
+## Near vehicles
 
 To get the near vehicles we must send GET with 2 required parameters.
 __URL:__ `/endpoint/vehicles/near/:lat/:lng`
