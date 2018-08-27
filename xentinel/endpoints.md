@@ -24,3 +24,9 @@ This endpoint is made to check a token status.
 This service returns positions history from specific `deviceId`
 
 [Documentation](/xentinel/endpoints/historyPositions)
+
+## Near Vehicles
+
+This service returns vehicles near to a position (lat, lng)
+
+[Documentation](/xentinel/endpoints/nearVehicles)
