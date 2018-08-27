@@ -1,0 +1,16 @@
+<section class="page-header" style="height:350px; padding: 25px 0;">
+{% if page.info %}
+    <a href="javascript:history.back()"><img src="{{page.info.logo | relative_url}}" alt="Logo" style="width:150px;"/></a>
+    <h1 class="project-name">{{ page.info.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ page.info.description | default: site.github.project_tagline }}</h2>
+{% else %}
+    <img src="{{site.logo | relative_url}}" alt="Logo" style="width:150px;"/>
+    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+{% endif %}
+
+{% if site.show_downloads %}
+    <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+    <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+{% endif %}
+</section>  

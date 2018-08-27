@@ -52,7 +52,7 @@ Example Javascript
 var headers = {
     "x-application-id": "clientID", //provided by Xentinel
     "x-xen-session": "LoggerUserToken", //provided by Xentinel Auth Service
-    'Content-Type' : 'application/json; charset=UTF-8' // Required
+    'Content-Type' : 'application/json; charset=UTF-8;' // Required
 };
 ``` 
 <a style="float:right;right:0;" href="#index"><i class="fa fa-arrow-circle-up"></i> Top</a>

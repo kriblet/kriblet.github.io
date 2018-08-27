@@ -8,41 +8,25 @@ info:
     favicon: /img/xentinel.png
     logo: /img/xentinel.png
 ---
-# Endpoints
 
-Special Endpoints
+# Special endpoints
 
-## Near vehicles
+A list of special business endpoints.
 
-To get the near vehicles we must send GET with 2 required parameters.
-__URL:__ `/endpoint/vehicles/near/:lat/:lng`
+## Security Check Status
 
-[Example](#example)
+This endpoint is made to check a token status.
 
-### Parameters
+[Documentation](/xentinel/endpoints/checkStatus)
 
-| Name | Type | Required | Description | 
-|:--|:-------|:------|:---------------------|
-| lat | Double | `true` | Contains the latitude |
-| lng | Double | `true` | Contains the longitude |
+## Positions History
 
-### Result
-Vehicles list near to the location given
+This service returns positions history from specific `deviceId`
 
+[Documentation](/xentinel/endpoints/historyPositions)
 
-## Example
-Near vehicles example AngularJs
-```js
-$dataFactory.doGet(app.apiPrefix + '/endpoint/vehicles/near/25.795507/-108.950868'})
-    .success(function(result) {
-        if (result.isValid) {
-            var vehicles = result.data;
-        } else {
-            // Failed get see result.error / result.message
-        }
-    })
-    .error(function(err){
-        // Failed get see result.error / result.message
-        console.error(err);
-    });
-```
+## Near Vehicles
+
+This service returns vehicles near to a position (lat, lng)
+
+[Documentation](/xentinel/endpoints/nearVehicles)

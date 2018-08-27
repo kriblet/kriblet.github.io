@@ -17,6 +17,7 @@ This is a GPS Tracking software light and powerful, made to support [xentinel.io
 | Content | Description | 
 |---|---|
 | [General](#general) | General information about Xentinel Api |
+| [Endpoints](#endpoints) | Api endpoints to consume |
 | [Conventions](conventions) | Conventions to consider to properly use Xentinel api |
 | [Login](login) | How to login into Xentinel api?  |
 | [CRUD](crud) | How CRUD operations are made with Xentinel api |
@@ -33,3 +34,11 @@ Xentiel api provides 30 minutes sessions, which must refresh before 30 minutes d
 
 Sessions are domain restricted and client restricted.
 
+## Endpoints
+Make sure to use the proper endpoint on your requests.
+
+## Test Endpoint
+`https://test.api.wearawhere.com`
+
+## Live Endpoint
+`https://api.xentinel.io`
